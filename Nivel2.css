@@ -8,6 +8,15 @@ a {
     color: gray;
 }
 
+.principal {
+    display: flex;
+    flex-flow: column;
+}
+
+.margen-interno {
+    padding: 0 50px;
+}
+
 .header {
     height: 400px;
     background: url(/Imagenes/header.jpg);
@@ -59,4 +68,58 @@ a {
 
 .titulo h1 {
     color: orange;
+}
+
+.section {
+    display: flex;
+    margin: 0;
+}
+
+.articulos {
+    background-color: rgba(69, 69, 69, 0.629);
+    display: flex;
+    flex: 2 1 auto;
+    flex-flow: row wrap;
+}
+
+.article {
+    flex: 1 1 40%;
+    background-color: rgb(215, 215, 215);
+    flex: 1 1 45%;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.article img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.article h3 {
+    color: white;
+    font-size: 13px;
+    padding: 10px 0;
+    margin-top: -50px;
+}
+
+h2 {
+    color: white;
+    background-color: rgb(232, 128, 145);
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 0px 0 10px 0;
+}
+
+.navegacion {
+    flex: 1 1 100%;
+    background-color: rgb(215, 215, 215);
+}
+
+.sidebar {
+    background-color: rgba(69, 69, 69, 0.629);
+    flex: 1 1 auto;
+}
+
+.side {
+    background-color: rgb(206, 206, 206);
 }
