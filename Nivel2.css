@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.header {
+    height: 400px;
+    background: url(/Imagenes/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: contain;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.menu {
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    background: rgba(255, 255, 255, 0);
+    flex: 1 1 auto;
+}
+
+.nav {
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: space-around;
+    flex: 5 1 auto;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.social {
+    background: rgba(255, 255, 255, 0);
+    flex: 1 1 auto;
+}
+
+.titulo {
+    background-color: rgba(0, 0, 0, 0.164);
+    width: 70%;
+    height: 100px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo h1 {
+    color: orange;
+}
