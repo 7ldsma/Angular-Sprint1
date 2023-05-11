@@ -19,7 +19,7 @@ a {
 
 .header {
     height: 400px;
-    background: url(/Imagenes/header.jpg);
+    background: url(./imagenes/header.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: contain;
