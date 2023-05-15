@@ -1,0 +1,57 @@
+.header {
+    height: 400px;
+    background: url(./imagenes/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: contain;
+    display: grid;
+    animation: fadearriba 1s ease-in;
+    grid-area: "menu" "titulo";
+}
+
+.menu {
+    background: rgba(255, 255, 255, 0);
+    grid-template-columns: auto;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    background: rgba(255, 255, 255, 0);
+    animation: showup 1s ease-in;
+}
+
+.logo img:hover {
+    opacity: 70%;
+}
+
+.nav {
+    background: rgba(255, 255, 255, 0);
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.social {
+    background: rgba(255, 255, 255, 0);
+}
+
+.social a:hover {
+    color: black;
+}
+
+.titulo {
+    background-color: rgba(0, 0, 0, 0.164);
+    width: 70%;
+    height: 100px;
+    align-self: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.titulo h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    text-align: center;
+}

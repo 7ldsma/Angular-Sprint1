@@ -81,6 +81,7 @@ a {
 .titulo h1 {
     font-family: 'Times New Roman', Times, serif;
     color: orange;
+    text-align: center;
 }
 
 .section {
@@ -189,7 +190,19 @@ a {
     }
 }
 
+@media all and (max-width: 1200px) {
+    .article {
+        flex: 1 1 50%;
+    }
+    .article p {
+        column-count: 1;
+    }
+}
+
 @media all and (max-width: 800px) {
+    .titulo {
+        font-size: 12px;
+    }
     .section {
         flex-direction: column;
     }
@@ -197,16 +210,22 @@ a {
         flex-direction: column;
         height: auto;
     }
+    .article p {
+        column-count: 1;
+    }
 }
 
 @media all and (max-width:500px) {
     .titulo {
-        font-size: 18px;
+        font-size: 12px;
     }
     .sidebar {
         flex-direction: column;
     }
     .articulos {
         flex-direction: column;
+    }
+    .article p {
+        column-count: 1;
     }
 }
